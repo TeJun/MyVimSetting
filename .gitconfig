@@ -1,0 +1,10 @@
+[user]
+	name = soar
+	email = soar@stco.tw
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+[core]
+	autocrlf = input
