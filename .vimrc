@@ -1,3 +1,5 @@
+"Tag List, need use ctags產生標籤,mac上設定仍有問題
+nmap <f9> <esc>:Tlist<cr>
 "Toggles NERD Tree view (file viewer)
 nmap <F8> <ESC>:NERDTreeToggle<CR>
 
@@ -29,6 +31,23 @@ set softtabstop=4
 "-----------------------
 " 界面設置
 "----------------------
+"語法高亮度顯示
+syntax enable
+
+"設定背景暗色系or亮色系
+if has('gui_running')
+	set background=light
+	"colorscheme solarized
+	"colorscheme github
+	colorscheme gruvbox
+else
+    set background=dark
+	"colorscheme solarized
+	colorscheme gruvbox
+	"colorscheme atom-dark
+	"colorscheme jellybeans
+endif
+
 "顯示行號
 set nu!
 
@@ -36,7 +55,7 @@ set nu!
 set cursorline
 
 "一般的 linux 裝好 vim 應該都會有這個配色
-colorscheme torte
+"colorscheme torte
 
 "背景使用黑色
 "set background=dark
@@ -74,8 +93,7 @@ set backspace=2
 "---------------------
 "編程設置
 "---------------------
-"語法高亮度顯示
-syntax on
+
 set nocompatible " VIM 不使用和 VI 相容的模式
 
 "設置匹配模式，類似當輸入一個左括號時會匹配相應的那個右括號
