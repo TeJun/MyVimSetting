@@ -24,9 +24,9 @@ set tabstop=4    " tab 的字元數
 set softtabstop=4
 
 " 可以在buffer的任何地方使用鼠標
-"set mouse=a
-"set selection=exclusive
-"set selectmode=mouse,key
+set mouse=a
+set selection=exclusive
+set selectmode=mouse,key
 
 "-----------------------
 " 界面設置
