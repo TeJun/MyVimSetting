@@ -20,9 +20,9 @@
 * 增加顏色區別，適用在diff, status, brance, log時
 * 自動判斷換行符號處理
 
-## install
+## Installation
 
-* 將install.sh檔變更為可執行
+* 將安裝腳本檔(install.sh)檔變更為可執行
 ```
 cd MyVimSetting\
 chmod +x install.sh
