@@ -1,6 +1,6 @@
 [user]
-	name = soar
-	email = soar@stco.tw
+	name = your_name
+	email = your@email.com
 [color]
 	diff = auto
 	status = auto
@@ -8,3 +8,7 @@
 	log = auto
 [core]
 	autocrlf = input
+[log]
+	abbrevCommit = true
+[push]
+	default = simple
