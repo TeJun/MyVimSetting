@@ -30,7 +30,11 @@ if [ "$ANS" == "y" ]; then
 	branch = auto
 	log = auto
 [core]
-	autocrlf = input" > ~/.gitconfig
+	autocrlf = input
+[log]
+	abbrevCommit = true
+[push]
+	default = simple" > ~/.gitconfig
 else
   echo "Skeep this"
 fi
