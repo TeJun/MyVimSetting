@@ -31,3 +31,7 @@ chmod +x install.sh
 ```
 sh install.sh
 ```
+
+### Vim Theme & NERD Tree Screenshot
+
+![Vim Theme Screenshot](https://i.imgur.com/X6EtgwY.png)
