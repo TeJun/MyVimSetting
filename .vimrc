@@ -22,6 +22,10 @@ set history=500
 set shiftwidth=2 " 設定縮排寬度 = 4
 set tabstop=4    " tab 的字元數
 set softtabstop=4
+set expandtab
+
+"增加sparkup套件
+filetype plugin on
 
 " 可以在buffer的任何地方使用鼠標
 set mouse=a
@@ -34,19 +38,16 @@ set selectmode=mouse,key
 "語法高亮度顯示
 syntax enable
 
-"設定背景暗色系or亮色系
-if has('gui_running')
-	set background=light
-	"colorscheme solarized
-	"colorscheme github
-	colorscheme gruvbox
-else
-    set background=dark
-	"colorscheme solarized
-	colorscheme gruvbox
-	"colorscheme atom-dark
-	"colorscheme jellybeans
-endif
+"設定背景暗色系or亮色系與佈景
+"set background=light
+"colorscheme solarized
+"colorscheme github
+
+set background=dark
+"colorscheme solarized
+colorscheme gruvbox
+"colorscheme atom-dark
+"colorscheme jellybeans
 
 "顯示行號
 set nu!
