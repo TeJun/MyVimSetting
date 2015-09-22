@@ -20,9 +20,8 @@ filetype on
 set history=500
 
 set shiftwidth=2 " 設定縮排寬度 = 4
-set tabstop=4    " tab 的字元數
-set softtabstop=4
-set expandtab
+set tabstop=2    " tab 的字元數
+set softtabstop=2
 
 "增加sparkup套件
 filetype plugin on
