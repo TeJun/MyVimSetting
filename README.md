@@ -3,6 +3,7 @@
 ## 針對 Vim 作一些基本配置的設定
 
 * 安裝[NERDTree](https://github.com/scrooloose/nerdtree)套件，可使用<F8>來切換，這是一套樹狀結構檢視工具
+* 安裝[sparkup](https://github.com/rstacruz/sparkup)套件，加快編輯HTML檔案的element,id,class等撰寫速度
 * 編碼設定UTF-8, 讀取檔案編碼設定UTF-8與CP950(一般Windows上的檔案編碼)
 * 可在畫面上使用滑鼠鼠標與滾輪，但在MAC環境的終端機下無法正常運作
 * 語法高亮度顯示
