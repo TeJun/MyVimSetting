@@ -21,13 +21,14 @@ set history=500
 
 set shiftwidth=2 " 設定縮排寬度 = 4
 set tabstop=2    " tab 的字元數
+set expandtab    " 設定用空白取代tab
 set softtabstop=2
 
 "增加sparkup套件
 filetype plugin on
 
 " 可以在buffer的任何地方使用鼠標
-set mouse=a
+"set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
 
